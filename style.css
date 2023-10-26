@@ -47,7 +47,7 @@ p {
 }
 
 .slide_principal{  
-    background-image: url('/Web/Iconos e imagenes/imagen 1.jpg');  
+    background-image: url('imagen 1.jpg');  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
