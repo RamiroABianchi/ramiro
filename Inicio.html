@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoción Mi Naranja X</title>
+    <link rel="shortcut icon" href="/Web/Iconos e imagenes/Favicon.svg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Web/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@12..96&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="marca">
+            <img src="/Web/Iconos e imagenes/marca horizontal color.svg" alt="">
+        </div>
+        <div>
+            <ul>
+                <li><a href="#portada">Inicio</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#mitarjeta">Mi tarjeta</a></li>
+                <li><a href="#app">Descargar App</a></li>
+                <li><a href="#preguntas">FAQs</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Menú</button>
+            <div class="dropdown-content">
+                <a href="#portada">Inicio</a>
+                <a href="#beneficios">Beneficios</a>
+                <a href="#mitarjeta">Mi tarjeta</a>
+                <a href="#app">Descargar App</a>
+                <a href="#preguntas">FAQs</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <section id="portada" img src="/Web/Iconos e imagenes/imagen 1.jpg" alt="" class="slide_principal">
+
+        <div class="portada-principal">
+            <h1>Mi primera y única tarjeta</h1>
+            <p><br>Comenzá a disfrutar de tu vida financiera</br>
+                <br>Hacé clic ahora y pedilá sin cargo</br>
+            </p>
+        </div>
+        <div class="portada_btn">
+            <button onclick="scrollDown()" class="btn">Mi naranja X</a></button>
+            <h4 class="btn1">Conocer más</h4> 
+        </div>
+    </section>
+
+    <section id="beneficios" class="tarjetas_3">
+        <div class="tarj" data-aos="fade-up">
+            <img src="/Web/Iconos e imagenes/Vector.png" alt="" class="icono1">
+            <h2>Fácil de usar</h2>
+            <p>Realizá tus compras online o en tiendas físicas a través de nuestra app</p>
+        </div>
+
+        <div class="tarj" data-aos="fade-up">
+            <img src="/Web/Iconos e imagenes/DESIGNED_BY_FREEPIK.png" alt="" class="icono2">
+            <h2>Más seguridad</h2>
+            <p>Protege tu dinero y evitá el manejo de efectivo</p>
+        </div>
+
+        <div class="tarj" data-aos="fade-up">
+            <img src="/Web/Iconos e imagenes/icono3.png" alt="" class="icono3">
+            <h2>Descuentos</h2>
+            <p>Ahorrá dinero, descuentos de hasta 70%, conocé los beneficios de tu NaranjaX</p>
+        </div>
+    </section>
+    <section>
+        <div class="columnas_mitarjeta_principal">
+            <div class="columna1">
+                <img src="/Web/Iconos e imagenes/imagen 2.png" alt="">
+            </div>
+            <div class="columna2">
+                <div class="columna2_tarjeta1" data-aos="fade-up">
+                    <h3 class="num">1</h3>
+                    <h3>Transferí dinero a cualquier cuenta</h3>
+                </div>
+                <div class="columna2_tarjeta1" data-aos="fade-up">
+                    <h3 class="num">2</h3>
+                    <h3>Comprá todo lo que más te gusta</h3>
+                </div>
+                <div class="columna2_tarjeta1" data-aos="fade-up">
+                    <h3 class="num">3</h3>
+                    <h3>Extraé tu dinero, rápido y sencillo</h3>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="mitarjeta">
+        <div class="mitarjeta_inicio">
+            <h1>¡Mi tarjeta, mi herramienta financiera!</h1>
+            <p>Usá tu tarjeta Naranja X donde quieras y como quieras, pagá tus viajes, entradas al recital que más te
+                guste y vestite con tu marca favorita</p>
+                <h4 class="btn"><a href="#contacto">Mi naranja X</a></h4>
+        </div>
+
+        <div id="mostrar" class="img_monedas_manos"> 
+            <img src="/Web/Iconos e imagenes/imagen3.png" alt="">
+        </div>
+
+    </section>
+
+    <section id="contacto">
+        <h1>Estemos en contacto</h1>
+        <p>Completa el formulario y adquiri tu primera tarjeta</p>
+        <div class="container">
+            <form class="centered-form" action="" method="post">
+                <div class="input-row">
+                    <div class="input-container">
+                        <input type="text" name="Nombre" placeholder="Nombre">
+                    </div>
+                    <div class="input-container">
+                        <input type="text" name="Apellido" placeholder="Apellido">
+                    </div>
+                </div>
+                <div class="input-row">
+                    <div class="input-container">
+                        <input type="email" name="Email" placeholder="Email">
+                    </div>
+                    <div class="input-container">
+                        <input type="tel" name="Telefono" placeholder="Telefono">
+                    </div>
+                </div>
+                <input type="submit" value="Enviar" id="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer class="container-footer">
+        <section class="footer">
+            <div class="col 1">
+                <img src="/Web/Iconos e imagenes/marca horizontal color.svg" alt="">
+            </div>
+
+            <div class="col 1">
+                <h3>Menú</h3>
+                <h5>Inicio</h5>
+                <h5>Mi tarjeta</h5>
+                <h5>Descargar App</h5>
+                <h5>FAQs</h5>
+                <h5>Contacto</h5>
+            </div>
+
+            <div class="col 1">
+                <h3>Servicios</h3>
+                <h5>Mi tarjeta</h5>
+                <h5>Movimientos</h5>
+                <h5>Asesoramienta</h5>
+            </div>
+
+            <div class="col 1">
+                <h3>Dirección</h3>
+                <h5>Luján, Buenos Aires, Argentina</h5>
+                <h5>Telefono: 011-15 6469-7220</h5>
+            </div>
+        </section>
+    </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/canvas-confetti.min.js"></script>  
+    <script src="/Web/JS/codigo.js"></script>
+    <script type="text/javascript"><h2>Los datos fueron cargados de manera correcta</h2></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+
+</html>
