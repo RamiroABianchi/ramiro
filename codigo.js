@@ -1,9 +1,9 @@
 <script>
     function scrollDown() {
-      // Selecciona el elemento al que quieres hacer scroll
-      var targetElement = document.getElementById('elementoDestino'); // Cambia 'elementoDestino' con el ID de tu elemento de destino
+      // Selecciona el elemento al que se hace scroll
+      var targetElement = document.getElementById('elementoDestino'); 
 
-      // Utiliza scrollIntoView para hacer scroll suave hacia el elemento
+      // Se Utiliza scrollIntoView para hacer scroll suave hacia el elemento
       targetElement.scrollIntoView({
         behavior: 'smooth'
       });
